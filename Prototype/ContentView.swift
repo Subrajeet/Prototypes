@@ -14,9 +14,11 @@ struct ContentView: View {
                 .foregroundColor(.red)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, love!")
+            
+            Text("Hello, love!").bold().foregroundColor(.white)
         }
-        .padding()
+        .padding(64).background(.blue).cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+    
     }
 }
 
